@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 253af75 (added project files and components)
 import React, { useEffect, useRef } from "react";
 import reelplayvideo from "./reelplayvideo.mp4";
 import gsap, { Power4 } from "gsap/gsap-core";
@@ -13,34 +9,44 @@ function Playreel() {
   const videodiv = useRef(null);
   const play = useRef(null);
   const reel = useRef(null);
-  
+
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    var tl = gsap.timeline( {
+    var tl = gsap.timeline({
       scrollTrigger: {
         trigger: parent.current,
         top: "0 0",
         pin: true,
         scrub: 1,
-        
-      }
-    })
-    tl
-    .to(videodiv.current,{
-      width: "105%",
-      height: "105%",
-      ease: Power4
-    }, 'a')
-    .to(play.current,{
-      x: "100%",
-      ease: Power4,
-      scale: 1.2
-    }, 'a')
-    .to(reel.current,{
-      x: "-100%",
-      ease: Power4,
-      scale: 1.2
-    }, 'a')
+      },
+    });
+    tl.to(
+      videodiv.current,
+      {
+        width: "105%",
+        height: "105%",
+        ease: Power4,
+      },
+      "a",
+    )
+      .to(
+        play.current,
+        {
+          x: "100%",
+          ease: Power4,
+          scale: 1.2,
+        },
+        "a",
+      )
+      .to(
+        reel.current,
+        {
+          x: "-100%",
+          ease: Power4,
+          scale: 1.2,
+        },
+        "a",
+      );
   });
   return (
     <div
@@ -77,8 +83,12 @@ function Playreel() {
           <h3 className="text-sm">Work in motion</h3>
         </div>
         <h1 className="w-full flex justify-center gap-20 sm:gap-96 items-center">
-          <div ref={play} className="text-4xl sm:text-8xl font-light">Play</div>
-          <div ref={reel} className="text-4xl sm:text-8xl font-light">Reel</div>
+          <div ref={play} className="text-4xl sm:text-8xl font-light">
+            Play
+          </div>
+          <div ref={reel} className="text-4xl sm:text-8xl font-light">
+            Reel
+          </div>
         </h1>
         <p className="text-center px-10 text-xs">
           Our work is best experienced in motion. Don’t forget to put on your

@@ -1,10 +1,6 @@
-<<<<<<< HEAD
+import React from "react";
 import React from "react";
 
-=======
-
-import React from "react";
->>>>>>> 253af75 (added project files and components)
 function Spread() {
   return (
     <div className="w-full bg-white ">
@@ -26,9 +22,12 @@ function Spread() {
           <h1 className="mt-15">In the media</h1>
         </div>
         <div className="text mt-18 text-center">
-            
-          <h1 className="capitalize text-6xl sm:text-9xl tracking-tighter">Spread</h1>
-          <h1 className="capitalize text-6xl sm:text-9xl tracking-tighter">the news</h1>
+          <h1 className="capitalize text-6xl sm:text-9xl tracking-tighter">
+            Spread
+          </h1>
+          <h1 className="capitalize text-6xl sm:text-9xl tracking-tighter">
+            the news
+          </h1>
           <p className="w-2/3 sm:w-1/3 mx-auto mt-5 sm:mt-10 text-md sm:text-xl ">
             Find out more about our work on these leading design and technology
             platforms.
@@ -43,8 +42,12 @@ function Spread() {
       </div>
       <div className=" w-full mt-26 bg-black px-5 sm:px-10 text-white text-center ">
         <div className="w-full py-27 text-center">
-          <h1 className="capitalize text-6xl sm:text-9xl tracking-tighter ">Our</h1>
-          <h1 className="capitalize text-6xl sm:text-9xl tracking-tighter ">Story</h1>
+          <h1 className="capitalize text-6xl sm:text-9xl tracking-tighter ">
+            Our
+          </h1>
+          <h1 className="capitalize text-6xl sm:text-9xl tracking-tighter ">
+            Story
+          </h1>
 
           <p className="w-2/3 sm:w-1/3 mx-auto sm:text-xl mt-17 text-sm text-center ">
             The story behind Exo Ape is one of exploration, creativity and
@@ -63,7 +66,3 @@ function Spread() {
 }
 
 export default Spread;
-<<<<<<< HEAD
-=======
-
->>>>>>> 253af75 (added project files and components)
