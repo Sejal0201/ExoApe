@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 253af75 (added project files and components)
 import gsap, { Linear, Power4, ScrollTrigger } from "gsap/all";
 import React, { useEffect, useRef } from "react";
 gsap;
@@ -27,7 +23,7 @@ function Images() {
         x: "50%",
         ease: Linear,
       },
-      "a"
+      "a",
     )
       .to(
         second.current,
@@ -35,7 +31,7 @@ function Images() {
           x: "-40%",
           ease: Linear,
         },
-        "a"
+        "a",
       )
       .to(
         third.current,
@@ -43,7 +39,7 @@ function Images() {
           x: "-40%",
           ease: Linear,
         },
-        "a"
+        "a",
       )
       .to(
         fourth.current,
@@ -51,7 +47,7 @@ function Images() {
           x: "40%",
           ease: Linear,
         },
-        "a"
+        "a",
       );
   });
   return (
