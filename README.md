@@ -61,15 +61,10 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 https://your-live-link-here.com
+👉 exo-ape-dcpn.vercel.app
 
 ---
 
-## 📸 Screenshots
-
-*Add screenshots of your project here to showcase UI*
-
----
 
 ## 📌 Key Learnings
 
