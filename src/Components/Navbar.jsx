@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 253af75 (added project files and components)
 import React from "react";
 import { IoMenu } from "react-icons/io5";
 import { easeInOut, motion } from "motion/react";
