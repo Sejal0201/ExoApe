@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 253af75 (added project files and components)
 import gsap, { Linear, Power4, ScrollTrigger } from "gsap/all";
 import React, { useEffect, useRef } from "react";
 gsap;

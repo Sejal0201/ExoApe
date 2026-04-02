@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React from "react";
 
+=======
+
+import React from "react";
+>>>>>>> 253af75 (added project files and components)
 function Spread() {
   return (
     <div className="w-full bg-white ">
@@ -58,3 +63,7 @@ function Spread() {
 }
 
 export default Spread;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 253af75 (added project files and components)

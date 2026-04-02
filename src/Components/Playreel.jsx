@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 253af75 (added project files and components)
 import React, { useEffect, useRef } from "react";
 import reelplayvideo from "./reelplayvideo.mp4";
 import gsap, { Power4 } from "gsap/gsap-core";

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 253af75 (added project files and components)
 import { Expo, Power4 } from "gsap/all";
 import { motion } from "motion/react";
 import React from "react";
@@ -81,3 +85,8 @@ function Start() {
 }
 
 export default Start;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 253af75 (added project files and components)
